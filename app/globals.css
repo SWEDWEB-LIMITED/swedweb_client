@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsive-container{
+    @apply sm:w-[90dvw] lg:w-[58rem] xl:w-[70rem] 2xl:w-[82rem]
+}
