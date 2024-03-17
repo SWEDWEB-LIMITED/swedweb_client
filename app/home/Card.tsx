@@ -32,7 +32,7 @@ export default function Card() {
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
                             <a  download="/" className="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
                                 <span>Download</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="m17 13l-5 5m0 0l-5-5m5 5V6"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m17 13l-5 5m0 0l-5-5m5 5V6"></path></svg>
                             </a>
                             <a  className="group flex items-center rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 size-8 justify-center">
                                 <span className="sr-only">Source Code</span>
@@ -64,21 +64,21 @@ export default function Card() {
                       height="8"
                       rx="4"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <path
                       d="M6.90949 14.2214L11.4286 21H22.2857L26.8048 14.2214C27.2402 13.5683 27.4578 13.2418 27.4226 12.886C27.3874 12.5303 27.1099 12.2528 26.5549 11.6978L16.8571 2L7.15938 11.6978C6.60439 12.2528 6.32689 12.5303 6.29166 12.886C6.25643 13.2418 6.47412 13.5683 6.90949 14.2214Z"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <circle
                       cx="17"
                       cy="14"
                       r="3"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
-                    <path d="M17 2V10" stroke="black" stroke-width="2" />
+                    <path d="M17 2V10" stroke="black" strokeWidth="2" />
                   </svg>
                 </div>
 
@@ -107,7 +107,7 @@ export default function Card() {
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="m17 13l-5 5m0 0l-5-5m5 5V6"
                       ></path>
                     </svg>
@@ -134,14 +134,14 @@ export default function Card() {
                     <path
                       d="M6.5 3.5L22.5 19.5"
                       stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                     <path
                       d="M16.55 2.82843L2.16216 17.2162L1.5 24.5L8.78378 23.8378L23.1716 9.45005C24.7337 7.88795 24.7337 5.35529 23.1716 3.79319L22.2068 2.82843C20.6447 1.26633 18.112 1.26633 16.55 2.82843Z"
                       stroke="black"
-                      stroke-width="2"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </div>
@@ -170,7 +170,7 @@ export default function Card() {
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="m17 13l-5 5m0 0l-5-5m5 5V6"
                       ></path>
                     </svg>
@@ -201,7 +201,7 @@ export default function Card() {
                       height="25"
                       rx="2"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <line
                       x1="19"
@@ -209,7 +209,7 @@ export default function Card() {
                       x2="19"
                       y2="37"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <line
                       x1="6"
@@ -217,7 +217,7 @@ export default function Card() {
                       x2="31"
                       y2="37"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -246,7 +246,7 @@ export default function Card() {
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="m17 13l-5 5m0 0l-5-5m5 5V6"
                       ></path>
                     </svg>
@@ -267,7 +267,7 @@ export default function Card() {
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
                             <a  download="/" className="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
                                 <span>Download</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="m17 13l-5 5m0 0l-5-5m5 5V6"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m17 13l-5 5m0 0l-5-5m5 5V6"></path></svg>
                             </a>
                             <a  className="group flex items-center rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 size-8 justify-center">
                                 <span className="sr-only">Source Code</span>
@@ -289,7 +289,7 @@ export default function Card() {
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
                             <a  download="/" className="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
                                 <span>Download</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="m17 13l-5 5m0 0l-5-5m5 5V6"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m17 13l-5 5m0 0l-5-5m5 5V6"></path></svg>
                             </a>
                             <a  className="group flex items-center rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 size-8 justify-center">
                                 <span className="sr-only">Source Code</span>
