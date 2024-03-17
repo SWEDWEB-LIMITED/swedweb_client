@@ -1,7 +1,7 @@
 import HomeComponent from "./home/Home";
 export default function Home() {
   return (
-    <div>
+    <div className="responsive-container">
       <HomeComponent />
     </div>
   );

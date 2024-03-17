@@ -22,8 +22,8 @@ export default function RootLayout({
         <nav>
           <Navbar />
         </nav>
-        
-        <main className="flex justify-center w-full items-center pt-[7rem]">
+
+        <main className="flex flex-col gap-[5rem] justify-center w-full items-center pt-[7rem]">
           {children}
         </main>
 
