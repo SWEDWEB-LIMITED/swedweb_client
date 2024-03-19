@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RecentProjects() {
   return (
@@ -14,7 +15,7 @@ export default function RecentProjects() {
       </div>
 
       <div className="mt-6 font-semibold cursor-pointer flex sm:justify-center lg:justify-end items-center">
-        <p>View all</p>
+        <Link href={"/portfolio"}>View all</Link>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
@@ -27,7 +28,7 @@ export default function RecentProjects() {
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
-            stroke-width="2"
+            strokeWidth="2"
             d="m17 13l-5 5m0 0l-5-5m5 5V6"
           ></path>
         </svg>

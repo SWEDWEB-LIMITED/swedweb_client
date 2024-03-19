@@ -140,7 +140,7 @@ export default function page() {
       </section>
 
       {/* testimonial section */}
-   
+
       <section className="w-full bg-black text-white flex justify-center items-center py-[10rem]">
         <div className="responsive-container">
           <p className="font-semibold">Testimonial</p>
