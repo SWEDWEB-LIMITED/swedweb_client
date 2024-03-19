@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function Contact() {
   return (
@@ -17,10 +16,9 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-col gap-4">
-        <Input type="text" placeholder="Name" />
-        <Input type="email" placeholder="Email" />
-        <Textarea placeholder="Type your message here." />
-<Button>Send</Button>
+          <Input type="text" placeholder="Name" />
+          <Input type="email" placeholder="Email" />
+          <Textarea placeholder="Type your message here." />
         </div>
       </div>
     </>

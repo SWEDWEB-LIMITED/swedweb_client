@@ -24,10 +24,6 @@ export default function Navbar() {
       name: "Portfolio",
       link: "/portfolio",
     },
-    {
-      name: "Blog",
-      link: "/blog",
-    },
   ];
   const showMenu = async () => {
     if (showHamberMenuItems === false) {
@@ -43,7 +39,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="w-full fixed z-[1000] backdrop-blur-[4px]">
+      <div className="w-full fixed z-[1000] backdrop-blur-[6px] bg-white/40">
         <div className=" w-full  z-[999]  flex flex-col justify-center items-center sm:py-[1rem] md:pt-[2rem] md:pb-[1rem] text-[1rem] font-semibold">
           <div className="flex justify-between items-center responsive-container">
             {/* logo */}
@@ -130,7 +126,9 @@ export default function Navbar() {
               })}
               <li>
                 <Button className="rounded-full sm:px-[2.3rem] sm:py-[2rem] md:px-[3.3rem] md:py-[3rem]  sm:text-[1.5rem] md:text-[2.5rem] font-bold">
-                  Get Started
+                  <Link href={"/contact"}>
+                  Book a call
+                  </Link>
                 </Button>
               </li>
             </ul>
