@@ -37,7 +37,6 @@ export default function RecentProjects() {
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 place-items-center gap-6 mt-[5rem]">
         <Card img="projects.png" />
         <Card img="projects2.png" />
-        <Card img="projects.png" />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from "next/link";
 
 export default function page() {
   const member = [
@@ -48,27 +49,29 @@ export default function page() {
         <hr className="w-full border-zinc-700 border mt-[5rem]" />
 
         <div className="responsive-container flex justify-between mt-4">
-          <Button className="rounded-full bg-white text-black text-sm hover:bg-white flex justify-center items-center group ">
-            Book a call
-            <span className="rounded-full bg-black ml-2 group-hover:ml-4 transition-all duration-300 ease-linear">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-                transform="rotate(-90)"
-              >
-                <path
-                  fill="none"
-                  stroke="white"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="m17 13l-5 5m0 0l-5-5m5 5V6"
-                ></path>
-              </svg>
-            </span>
-          </Button>
+          <Link href={"/contact"}>
+            <Button className="rounded-full bg-white text-black text-sm hover:bg-white flex justify-center items-center group ">
+              Book a call
+              <span className="rounded-full bg-black ml-2 group-hover:ml-4 transition-all duration-300 ease-linear">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                  transform="rotate(-90)"
+                >
+                  <path
+                    fill="none"
+                    stroke="white"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="m17 13l-5 5m0 0l-5-5m5 5V6"
+                  ></path>
+                </svg>
+              </span>
+            </Button>
+          </Link>
           <p className="text-sm text-white">Scroll to explore</p>
         </div>
       </div>
@@ -95,14 +98,14 @@ export default function page() {
         <div className="col-span-2 grid sm:grid-cols-1 sm:mt-[2rem] lg:mt-0 md:grid-cols-3 gap-x-[5rem]">
           <div>
             <p className="h-[5rem]">Projects we completed along the way</p>
-            <p className="font-bold text-[5rem]">40+</p>
+            <p className="font-bold text-[5rem]">2+</p>
           </div>
 
           <div>
             <p className="h-[5rem]">
               Globally taking our services from all over the world
             </p>
-            <p className="font-bold text-[5rem]">5+</p>
+            <p className="font-bold text-[5rem]">2+</p>
           </div>
 
           <div>

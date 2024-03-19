@@ -19,6 +19,7 @@ export default function Contact() {
           <Input type="text" placeholder="Name" />
           <Input type="email" placeholder="Email" />
           <Textarea placeholder="Type your message here." />
+          <Button className="w-full">Send</Button>
         </div>
       </div>
     </>
